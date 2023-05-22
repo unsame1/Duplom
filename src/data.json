@@ -1,0 +1,433 @@
+{
+  "boards": [
+    {
+      "name": "Platform Launch",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+            "title": "Побудувати інтерфейс для процесу приєднання",
+            "description": "",
+            "status": "Todo",
+            "subtasks": [
+            {
+            "title": "Сторінка реєстрації",
+            "isCompleted": true
+            },
+            {
+            "title": "Сторінка входу",
+            "isCompleted": false
+            },
+            {
+            "title": "Сторінка вітання",
+            "isCompleted": false
+            }
+            ]
+            },
+            {
+            "title": "Побудувати інтерфейс для пошуку",
+            "description": "",
+            "status": "Todo",
+            "subtasks": [
+            {
+            "title": "Сторінка пошуку",
+            "isCompleted": false
+            }
+            ]
+            },
+            {
+            "title": "Побудувати інтерфейс налаштувань",
+            "description": "",
+            "status": "Todo",
+            "subtasks": [
+            {
+            "title": "Сторінка облікового запису",
+            "isCompleted": false
+            },
+            {
+            "title": "Сторінка оплати",
+            "isCompleted": false
+            }
+            ]
+            },
+            {
+            "title": "QA та тестування основних шляхів користувача",
+            "description": "Як тільки ми вважаємо, що версія один готова, ми повинні провести ретельне тестування як внутрішнє, так і зовнішнє, щоб виявити будь-які важливі прогалини.",
+            "status": "Todo",
+            "subtasks": [
+            {
+            "title": "Внутрішнє тестування",
+            "isCompleted": false
+            },
+            {
+            "title": "Зовнішнє тестування",
+            "isCompleted": false
+            }
+            ]
+            }
+            ]
+        },
+        {
+          "name": "Doing",
+          "tasks": [
+            {
+              "title": "Розробка дизайну сторінок налаштувань та пошуку",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Налаштування - Сторінка облікового запису",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Налаштування - Сторінка оплати",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Сторінка пошуку",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Додавання точок управління обліковим записом",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Оновлення плану",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Скасування плану",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Оновлення способу оплати",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Розробка процесу приєднання",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Сторінка реєстрації",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Сторінка входу",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Сторінка вітання",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Додавання точок доступу до пошуку",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Додати точку доступу до пошуку",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Визначення фільтрів пошуку",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Додавання точок аутентифікації",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Визначення моделі користувача",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Додавання точок аутентифікації",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Дослідження цінових пропозицій різних конкурентів та випробування різних бізнес-моделей",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Дослідження цін конкурентів та бізнес-моделей",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Складання бізнес-моделі, яка підходить для нашого рішення",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Розмова з потенційними клієнтами про наше запропоноване рішення та запит на очікувану ціну",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Провести 5 тестів проводки",
+              "description": "Переконатися, що розміщення продовжує мати сенс і у нас є міцна підтримка потенційних користувачів.",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Завершити 5 тестів прототипу проводки",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Створити прототип проводки",
+              "description": "Створити монохромний клікабельний прототип проводки для перевірки наших припущень до цього часу.",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Створити клікабельний монохромний прототип проводки в Balsamiq",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Огляд результатів тестів на користуваність та ітерації",
+              "description": "Продовжуйте ітерувати підзадачі, поки ми не будемо впевнені в основних концепціях додатка.",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Зустрітися, щоб оглянути нотатки з попередніх тестів і запланувати зміни",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Внести зміни до паперових прототипів",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Провести 5 тестів на користуваність",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Створити паперові прототипи та провести 10 тестів на користуваність з потенційними клієнтами",
+              "description": "",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Створити паперові прототипи для першої версії",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Завершити 10 тестів на користуваність",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Дослідження ринку",
+              "description": "Нам потрібно визначити та вдосконалити наш основний продукт.",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Провести інтерв'ю з 10 потенційними клієнтами",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Аналіз конкурентів",
+              "description": "",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Знайти прямих та непрямих конкурентів",
+                  "isCompleted": true
+                },
+                {
+                  "title": "SWOT-аналіз для кожного конкурента",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Дослідити ринок",
+              "description": "Нам потрібно отримати чіткий огляд ринку, щоб мати актуальні оцінки розміру ринку та попиту.",
+              "status": "Виконано",
+              "subtasks": [
+                {
+                  "title": "Написати аналіз дослідження",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Розрахувати TAM (Total Addressable Market)",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing Plan",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+            "title": "Запланувати запуск на Product Hunt",
+            "description": "",
+            "status": "Не виконано",
+            "subtasks": [
+            {
+            "title": "Знайти охотника (hunter)",
+            "isCompleted": false
+            },
+            {
+            "title": "Зібрати ресурси",
+            "isCompleted": false
+            },
+            {
+            "title": "Написати сторінку продукту",
+            "isCompleted": false
+            },
+            {
+            "title": "Сповістити клієнтів",
+            "isCompleted": false
+            },
+            {
+            "title": "Сповістити мережу",
+            "isCompleted": false
+            },
+            {
+            "title": "Запустити!",
+            "isCompleted": false
+            }
+            ]
+            },
+            {
+            "title": "Поділитися на Show HN",
+            "description": "",
+            "status": "",
+            "subtasks": [
+            {
+            "title": "Написати пост на HN",
+            "isCompleted": false
+            },
+            {
+            "title": "Отримати відгуки та вдосконалити",
+            "isCompleted": false
+            },
+            {
+            "title": "Опублікувати пост",
+            "isCompleted": false
+            }
+            ]
+            },
+            {
+            "title": "Написати статтю про запуск для публікації на кількох каналах",
+            "description": "",
+            "status": "",
+            "subtasks": [
+            {
+            "title": "Написати статтю",
+            "isCompleted": false
+            },
+            {
+            "title": "Опублікувати на LinkedIn",
+            "isCompleted": false
+            },
+            {
+            "title": "Опублікувати на Indie Hackers",
+            "isCompleted": false
+            },
+            {
+            "title": "Опублікувати на Medium",
+            "isCompleted": false
+            }
+            ]
+            }
+            ]
+        },
+        {
+          "name": "Doing",
+          "tasks": []
+        },
+        {
+          "name": "Done",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Roadmap",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Now",
+          "tasks": [
+            {
+            "title": "Запуск першої версії",
+            "description": "",
+            "status": "",
+            "subtasks": [
+            {
+            "title": "Запустити приватно для нашого списку очікування",
+            "isCompleted": false
+            },
+            {
+            "title": "Запустити публічно на PH, HN та інші платформи",
+            "isCompleted": false
+            }
+            ]
+            },
+            {
+            "title": "Огляд ранніх відгуків та планування наступних кроків для дорожньої карти",
+            "description": "Поза першим запуском, ми залишаємо початкову дорожню карту повністю порожньою. Ця зустріч допоможе нам спланувати наступні кроки на основі фактичних відгуків клієнтів.",
+            "status": "",
+            "subtasks": [
+            {
+            "title": "Провести інтерв'ю з 10 клієнтами",
+            "isCompleted": false
+            },
+            {
+            "title": "Огляд загальних проблем та пропозицій клієнтів",
+            "isCompleted": false
+            },
+            {
+            "title": "Скласти наступні кроки для нашої дорожньої карти",
+            "isCompleted": false
+            }
+            ]
+            }
+            ]
+        },
+        {
+          "name": "Next",
+          "tasks": []
+        },
+        {
+          "name": "Later",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
